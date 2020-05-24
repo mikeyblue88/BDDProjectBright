@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 }//end of plugin
 
 
-//mike
+//mike - assertion added
 )//feature bracket end
 //type up to resource, to add multiple tagging put a comma between them. good practice is to copy and paste.
 //regression testing is dependant on the number of scenarios but normally between 1-2 hours
