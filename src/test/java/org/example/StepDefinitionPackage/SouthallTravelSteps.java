@@ -21,7 +21,7 @@ public class SouthallTravelSteps {
 
     @When("^User selects the airport in Destination box$")
     public void user_selects_the_airport_in_Destination_box() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+        southallTravel.destinationBox();
     }
 
     @When("^User selects (\\d+)th May in departing calender$")
