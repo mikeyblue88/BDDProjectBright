@@ -1,0 +1,11 @@
+Feature: Homepage functionality
+
+  Scenario: search product                                   [90m# src/test/Resource/Homepage.feature:4[0m
+    [32mGiven [0m[32muser is on the homepage of the argos website[0m       [90m# HomepageSteps.user_is_on_the_homepage_of_the_argos_website()[0m
+    [32mWhen [0m[32muser wants to search for product[0m                    [90m# HomepageSteps.user_wants_to_search_for_product()[0m
+    [32mThen [0m[32muser should see all the relevant searched products.[0m [90m# HomepageSteps.user_should_see_all_the_relevant_searched_products()[0m
+
+  Scenario: Clicking on the account button             [90m# src/test/Resource/Homepage.feature:10[0m
+    [32mGiven [0m[32muser is on the homepage of the argos website[0m [90m# HomepageSteps.user_is_on_the_homepage_of_the_argos_website()[0m
+    [32mWhen [0m[32muser clicks on the account button[0m             [90m# HomepageSteps.userClicksOnTheAccountButton()[0m
+    [32mThen [0m[32muser should see the detail of account.[0m        [90m# HomepageSteps.userShouldSeeTheDetailOfAccount()[0m

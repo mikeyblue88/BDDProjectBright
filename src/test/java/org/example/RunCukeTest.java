@@ -5,20 +5,19 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
+
+//@CucumberOptions(features = "src/test/Resource/SouthallTravel.feature")
 //@CucumberOptions(features = "src/test/Resource/ResultPage.feature")
-//@CucumberOptions(features = "src/test/Resource/Filterpage.feature")
-//@CucumberOptions(features = "src/test/Resource/Homepage.feature", tags = {"@regression", "@smoke"),
-        @CucumberOptions(features = "src/test/Resource/Homepage.feature", tags = {"@smoke"},
+//@CucumberOptions(features = "src/test/Resource/Filterpage.feature", plugin = {"html:target/cucumber-html-report"})
+@CucumberOptions(features = "src/test/Resource/Homepage.feature", plugin = {"html:target/cucumber-html-report",
+        "json:target/cucumber-json-report.json",
+        "junit:target/cucumber-xml-report.xml",
+        "pretty:target/cucumber-pretty-report.txt"})
+      /*  @CucumberOptions(features = "src/test/Resource/Homepage.feature", tags = {"@smoke"},
         plugin = {"html:target/cucumber-html-report",
           "json:target/cucumber-json-report.json",
           "junit:target/cucumber-xml-report.xml",
           "pretty:target/cucumber-pretty-report.txt"
-}//end of plugin
-
-
-
-)//feature bracket end
-//type up to resource, to add multiple tagging put a comma between them. good practice is to copy and paste.
-//regression testing is dependant on the number of scenarios but normally between 1-2 hours
+}*/
 public class RunCukeTest {
 }
