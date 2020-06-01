@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="35.272086">
+    <testcase classname="Homepage functionality" name="search product" time="22.033809">
+        <system-out>
+            <![CDATA[Given user is on the homepage of the argos website..........................passed
+When user wants to search for product.......................................passed
+Then user should see all the relevant searched products.....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Homepage functionality" name="Clicking on the account button" time="13.238277">
+        <system-out>
+            <![CDATA[Given user is on the homepage of the argos website..........................passed
+When user clicks on the account button......................................passed
+Then user should see the detail of account..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

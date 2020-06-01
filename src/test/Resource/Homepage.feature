@@ -13,11 +13,11 @@ Feature: Homepage functionality
       Then user should see the detail of account.
 
 
-      Scenario Outline: search multiple products
-        Given user is on the homepage of the argos website
-        When user tries to find multiple "<product>"
-        Then user should see all the relevant searched products.
-        Examples:
-        |product|
-        |nike   |
-        |puma   |
+   # Scenario Outline: search multiple products
+    #    Given user is on the homepage of the argos website
+     #   When user tries to find multiple "<product>"
+      #  Then user should see all the relevant searched products.
+       # Examples:
+        #|product|
+        #|nike   |
+        #|puma   |
