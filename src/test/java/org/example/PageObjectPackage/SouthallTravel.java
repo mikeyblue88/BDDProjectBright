@@ -35,7 +35,7 @@ public class SouthallTravel extends DriverFactory {
             List<WebElement> Destinations = driver.findElements(By.className("ui-menu-item-wrapper"));
             for (WebElement Destination : Destinations){
                 System.out.println(Destination.getText());
-                if(Destination.getText().contains(" JF Kennedy Intl Airport  (JFK), USA"));
+                if(Destination.getText().contains("Kennedy"));
                 Destination.click();
             }
         }
